@@ -1,12 +1,23 @@
-.header {
-  text-align: center;
+
+body {
+background-color: burlywood;
 }
 
-.image_container {
+.header_container {
+  text-align: center;
+}
+.header {
+  color: rgb(255, 255, 0);
+  text-shadow: 3px 3px blue;
+  background-color: rgb(255, 205, 140);
+}
+
+.player {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+
 
 img {
   border: 20px solid rgb(0, 0, 0);

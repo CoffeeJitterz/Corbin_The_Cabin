@@ -1,7 +1,7 @@
 function Header() {
   return (
-    <div className='header'>
-      <h1>CORBIN THE CABIN .com</h1>
+    <div className='header_container'>
+      <h1 className='header'>Corbin the Cabin .com</h1>
     </div>
   )
 }
