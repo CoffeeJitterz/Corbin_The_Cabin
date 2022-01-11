@@ -1,11 +1,13 @@
-import forest from './forest.jpg';
+import Header from './components/Header';
+import Player from './components/Player'
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-        <img src={forest} alt="Forest"/>
-    </div>
+    <>
+    <Header />
+    <Player />
+    </>
   );
 }
 
