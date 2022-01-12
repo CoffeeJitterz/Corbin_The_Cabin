@@ -3,12 +3,11 @@ import data from '../data/data'
 
 function Player() {
 
-  const [day, setDay] = useState(data[data.length - 1].day)
+const [day, setDay] = useState(data[data.length - 1].day)
 
 const backwards = () => {
   if(day > 0) {
     setDay(day - 1)
-      console.log(typeof day)
   } else {
     setDay(data[data.length - 1].day)
   }
@@ -16,7 +15,6 @@ const backwards = () => {
 const forwards = () => {
   if(day < data.length - 1) {
     setDay(day + 1)
-      console.log(typeof day)
   } else {
     setDay(0)
   }
@@ -28,38 +26,8 @@ const current = () => {
 const beginning = () => {
   setDay(0)
 }
-// let target = 3000
-// let current = 0
 
-// const countdown = () => {
-// current = current + 1000
-// console.log(current)
-//   if (current <= 3000) {
-//     return
-//   } else {
-//     console.log(current)
-//       setTimeout(countdown, 1000)
-//     }
-// }
-
-// const repeat = (n) => {
-//   if(n <= 0) {
-//     return
-//   }
-//   console.log(n);
-  
-//     setTimeout(() => {repeat(n - 1)}, 1000);
-// }
-
-// const player = (n) => {
-// if (n <= 0) {
-//   return
-// }
-// setImageData(...data[n])
-// console.log(imageData)
-// setTimeout(() => {player(n - 1), 1000})
-// }
-const screen = <img src={data[day].image}/> 
+const screen = <img src={data[day].image} alt='Corbin'/> 
 
   return (
     <div className="player">
