@@ -35,11 +35,13 @@ const screen = <img src={data[day].image} alt='Corbin'/>
         <h3>The Birth of Corbin</h3>
         {screen}
       </div>
-      <div className="day_count">
+      <div className="btns">
         <button onClick={beginning}>Beginning</button>
         <button onClick={backwards}>Backwards</button>
         <button onClick={forwards}>Forwards</button>
         <button onClick={current}>Current</button>
+      </div>
+      <div className="day_count">
         <h3>Day {day}</h3>    
       </div>
     </div>
