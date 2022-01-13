@@ -1,6 +1,8 @@
 import { useState } from 'react'
 import data from '../data/data'
 
+import Card from './shared/Card'
+
 function Player() {
 
 const [day, setDay] = useState(data[data.length - 1].day)
@@ -30,22 +32,25 @@ const beginning = () => {
 const screen = <img src={data[day].image} alt='Corbin'/> 
 
   return (
+  <Card>
     <div className="player">
       <div className='image_container'>
         <h3>The Birth of Corbin</h3>
         {screen}
       </div>
+      <Card>
       <div className="btns">
         <button onClick={beginning}>Beginning</button>
         <button onClick={backwards}>Backwards</button>
         <button onClick={forwards}>Forwards</button>
         <button onClick={current}>Current</button>
       </div>
+      </Card>
       <div className="day_count">
         <h3>Day {day}</h3>    
       </div>
     </div>
-
+  </Card>
   )
 }
 

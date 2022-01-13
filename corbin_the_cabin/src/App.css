@@ -18,27 +18,27 @@ background-color: burlywood;
   background-color: rgb(255, 205, 140);
   font-size: 100px;
 }
+.card{
+  border: 7px ridge;
+  border-top-color: rgb(255, 255, 255);
+  border-left-color: rgb(255, 255, 255);
+  border-right-color: rgb(71, 71, 71);
+  border-bottom-color: rgb(71, 71, 71);
+  outline: 2px solid black;
+  padding: 1em;
+  background-color: rgb(116, 116, 116);
 
-.player {
-  padding: 5em;
-  border: 5px solid rgb(0, 0, 0);
-  background-color: rgb(169, 169, 169);
 }
 
 img {
-  border: 10px solid rgb(0, 0, 0);
+  border: 3px solid rgb(255, 255, 255);
+  outline: 2px solid black;
 }
 
 .btns {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  background-color: rgb(128, 128, 128);
-  border-style: outset;
-  border-width: 20px 20px;
-  border-color: rgb(126, 126, 126);
-  padding: 1em;
-  margin:1em;
 }
 button {
   width: 8vw;
