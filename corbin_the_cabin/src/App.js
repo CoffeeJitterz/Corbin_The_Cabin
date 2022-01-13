@@ -3,7 +3,6 @@ import {BrowserRouter as Router, Route, Routes} from 'react-router-dom'
 import AboutPage from './components/Pages/AboutPage'
 import Header from './components/Header';
 import Player from './components/Player'
-import Card from './components/shared/Card';
 import './App.css';
 
 function App() {
