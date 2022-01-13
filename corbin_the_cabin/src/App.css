@@ -40,14 +40,23 @@ img {
   flex-direction: row;
   justify-content: center;
 }
-button {
+.btn {
   width: 8vw;
   height: 4vh;
-  border-style: outset;
-  border-width: 5px 5px;
-  background-color: rgb(169, 169, 169);
+  border: 4px ridge;
+  border-top-color: rgb(255, 255, 255);
+  border-left-color: rgb(255, 255, 255);
+  border-right-color: rgb(71, 71, 71);
+  border-bottom-color: rgb(71, 71, 71);
+  outline: 1px solid black;
+  background-color: rgb(116, 116, 116);
 }
-button:hover {
-  background-color: rgb(169, 169, 169);
-  background-color: rgb(66, 66, 66);
-}
+
+.btn:hover {
+  background-color: rgb(90, 90, 90);
+  border: 3px inset;
+  border-top-color: rgb(71, 71, 71);
+  border-left-color: rgb(71, 71, 71);
+  border-right-color: rgb(255, 255, 255);
+  border-bottom-color: rgb(255, 255, 255);  
+} 

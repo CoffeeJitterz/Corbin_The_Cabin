@@ -2,6 +2,7 @@ import { useState } from 'react'
 import data from '../data/data'
 
 import Card from './shared/Card'
+import Button from './shared/Button'
 
 function Player() {
 
@@ -40,10 +41,10 @@ const screen = <img src={data[day].image} alt='Corbin'/>
       </div>
       <Card>
       <div className="btns">
-        <button onClick={beginning}>Beginning</button>
-        <button onClick={backwards}>Backwards</button>
-        <button onClick={forwards}>Forwards</button>
-        <button onClick={current}>Current</button>
+        <Button onClick={beginning}>Beginning</Button>
+        <Button onClick={backwards}>Backwards</Button>
+        <Button onClick={forwards}>Forwards</Button>
+        <Button onClick={current}>Current</Button>
       </div>
       </Card>
       <div className="day_count">
