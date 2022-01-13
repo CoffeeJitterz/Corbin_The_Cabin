@@ -1,6 +1,6 @@
 
 body {
-background-color: burlywood;
+background-color: rgb(116, 116, 116);
 }
 .app {
   display: flex;
@@ -15,8 +15,8 @@ background-color: burlywood;
 .header {
   color: rgb(255, 255, 0);
   text-shadow: 3px 3px blue;
-  background-color: rgb(255, 205, 140);
   font-size: 100px;
+  background-color: rgb(180, 180, 180);
 }
 .card{
   border: 7px ridge;
