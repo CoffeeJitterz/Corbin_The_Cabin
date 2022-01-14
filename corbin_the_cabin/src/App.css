@@ -18,6 +18,10 @@ background-color: rgb(116, 116, 116);
   font-size: 100px;
   background-color: rgb(180, 180, 180);
 }
+.current {
+  background-color: blue;
+  text-decoration: none;
+}
 .card{
   border: 7px ridge;
   border-top-color: rgb(255, 255, 255);

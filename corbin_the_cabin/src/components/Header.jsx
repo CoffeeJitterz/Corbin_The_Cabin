@@ -1,4 +1,4 @@
-import {Link} from 'react-router-dom'
+import {NavLink, BrowserRouter as Router} from 'react-router-dom'
 
 import Card from './shared/Card'
 import Button from './shared/Button'
@@ -12,14 +12,15 @@ function Header() {
         </Card>
         <Card>
         <Button>
-        <Link to='/about'>About</Link>
+        <NavLink to='/'  exact activeClassName="current" style={{textDecoration: 'none', color: 'black'}}>Home</NavLink>
         </Button>
         <Button>
-        <Link to='/'>Home</Link>
+        <NavLink to='/about' exact activeClassName="current" style={{textDecoration: 'none', color: 'black'}}>About</NavLink>
         </Button>
         </Card>
       </div>
     </Card>
+ 
   )
 }
 
