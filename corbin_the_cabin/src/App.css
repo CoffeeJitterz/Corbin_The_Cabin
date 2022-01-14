@@ -26,19 +26,23 @@ background-color: rgb(116, 116, 116);
 display: flex;
 flex-direction: column;
 align-items: center;
-background-color: yellow;
-border-top-color: rgb(255, 255, 255);
-border-left-color: rgb(255, 255, 255);
-border-right-color: rgb(138, 118, 31);
-  border-bottom-color: rgb(138, 118, 31);
 border: 7px inset;
 outline: 2px solid black;
-
-
 }
 .card{
   border: 7px ridge;
   border-top-color: rgb(255, 255, 255);
+  border-left-color: rgb(255, 255, 255);
+  border-right-color: rgb(71, 71, 71);
+  border-bottom-color: rgb(71, 71, 71);
+  outline: 2px solid black;
+  margin: 1em;
+  background-color: rgb(116, 116, 116);
+
+}
+.card_title {
+  border: 7px ridge;
+  border-top: none;
   border-left-color: rgb(255, 255, 255);
   border-right-color: rgb(71, 71, 71);
   border-bottom-color: rgb(71, 71, 71);
