@@ -1,6 +1,6 @@
 import Proptypes from 'prop-types'
 
-function Card({children, title, color, text, size}) {
+function Card({children, title, color, text, size, fontColor}) {
 
   if(!title){
     return (
@@ -17,6 +17,7 @@ function Card({children, title, color, text, size}) {
                 borderColor: color,
                 borderTopColor:'rgb(255, 255, 255)',
                 borderLeftColor: 'rgb(255, 255, 255)',
+                color: fontColor,
                      }}>
          <h1 style={{
           fontSize: size,

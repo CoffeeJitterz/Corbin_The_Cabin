@@ -30,6 +30,7 @@ border: 10px outset;
 border-top-color:rgb(255, 255, 255);
 border-left-color: rgb(255, 255, 255);
 outline: 2px solid black;
+text-shadow: 3px 3px salmon;
 
 }
 .card{
@@ -75,6 +76,7 @@ img {
   border-bottom-color: rgb(71, 71, 71);
   outline: 1px solid black;
   background-color: rgb(116, 116, 116);
+  text-shadow: 2px 2px salmon;
 }
 
 .btn:hover {
