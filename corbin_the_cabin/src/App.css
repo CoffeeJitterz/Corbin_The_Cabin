@@ -59,6 +59,8 @@ text-shadow: 3px 3px salmon;
 img {
   border: 3px solid rgb(255, 255, 255);
   outline: 2px solid black;
+  margin: 1em;
+  margin-bottom: 0px;
 }
 
 .btns {
@@ -87,3 +89,8 @@ img {
   border-right-color: rgb(255, 255, 255);
   border-bottom-color: rgb(255, 255, 255);  
 } 
+
+.date {
+  color: white;
+  margin: 1em;
+}

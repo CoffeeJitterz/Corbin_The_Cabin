@@ -6,37 +6,40 @@ import Button from './shared/Button'
 
 function Player() {
 
-const [day, setDay] = useState(data[data.length - 1].day)
+const [frame, setFrame] = useState(data[data.length - 1].frame)
 
 const backwards = () => {
-  if(day > 0) {
-    setDay(day - 1)
+  if(frame > 0) {
+    setFrame(frame - 1)
   } else {
-    setDay(data[data.length - 1].day)
+    setFrame(data[data.length - 1].frame)
   }
 }
 const forwards = () => {
-  if(day < data.length - 1) {
-    setDay(day + 1)
+  if(frame < data.length - 1) {
+    setFrame(frame + 1)
   } else {
-    setDay(0)
+    setFrame(0)
   }
 }
 const current = () => {
-  setDay(data[data.length - 1].day)
+  setFrame(data[data.length - 1].frame)
 }
 
 const beginning = () => {
-  setDay(0)
+  setFrame(0)
 }
 
-const screen = <img src={data[day].image} alt='Corbin'/> 
+const screen = <img src={data[frame].image} alt='Corbin'/> 
 
   return (
   <Card title={true} text='The Birth Of Corbin' color='pink' size='large'>
     <div className="player">
       <div className='image_container'>
         {screen}
+      </div>
+      <div className="date" >
+        <h3>{data[frame].date}</h3>    
       </div>
       <Card>
       <div className="btns">
@@ -46,9 +49,6 @@ const screen = <img src={data[day].image} alt='Corbin'/>
         <Button onClick={current}>Current</Button>
       </div>
       </Card>
-      <div className="day_count">
-        <h3>Day {day}</h3>    
-      </div>
     </div>
   </Card>
   )

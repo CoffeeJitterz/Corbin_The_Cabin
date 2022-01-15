@@ -6,24 +6,29 @@ import day4 from '../images/day4.png'
 
 const data = [
   {
-    day: 0,
+    frame: 0,
     image: day0,
+    date: '4:00:00 Am, Friday April 13th, 1990 A.D.',
   },
   {
-    day: 1,
+    frame: 1,
     image: day1,
+    date: '4:00:01 Am, Friday April 13th, 1990 A.D.',
   },
   {
-    day: 2,
+    frame: 2,
     image: day2,
+    date: '4:00:02 Am, Friday April 13th, 1990 A.D.',
   },
   {
-    day: 3,
-    image: day3,
+    frame: 3,
+    image: day3, 
+    date: '4:00:03 Am, Friday April 13th, 1990 A.D.',
   },
   {
-    day: 4,
+    frame: 4,
     image: day4,
+    date: '4:00:04 Am, Friday April 13th, 1990 A.D.',
   },
 ]
 
