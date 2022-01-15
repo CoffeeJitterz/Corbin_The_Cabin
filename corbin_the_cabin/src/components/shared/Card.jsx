@@ -1,6 +1,6 @@
 import Proptypes from 'prop-types'
 
-function Card({children, title, color, text}) {
+function Card({children, title, color, text, size}) {
 
   if(!title){
     return (
@@ -11,8 +11,16 @@ function Card({children, title, color, text}) {
   } else if (title) {
     return (
       <div className="card_title">
-        <div className="title" style={{backgroundColor: color}}>
-          {text}
+        <div className="title" 
+              style={{
+                backgroundColor: color,
+                borderColor: color,
+                borderTopColor:'rgb(255, 255, 255)',
+                borderLeftColor: 'rgb(255, 255, 255)',
+                     }}>
+         <h1 style={{
+          fontSize: size,
+         }}> {text} </h1>
         </div>
         {children}
       </div>

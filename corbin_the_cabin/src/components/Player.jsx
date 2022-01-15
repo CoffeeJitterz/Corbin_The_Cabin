@@ -33,10 +33,9 @@ const beginning = () => {
 const screen = <img src={data[day].image} alt='Corbin'/> 
 
   return (
-  <Card>
+  <Card title={true} text='The Birth Of Corbin' color='pink' size='large'>
     <div className="player">
       <div className='image_container'>
-        <h3>The Birth of Corbin</h3>
         {screen}
       </div>
       <Card>
