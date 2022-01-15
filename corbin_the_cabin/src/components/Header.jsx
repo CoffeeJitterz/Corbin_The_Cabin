@@ -1,4 +1,4 @@
-import {NavLink, BrowserRouter as Router} from 'react-router-dom'
+import {NavLink} from 'react-router-dom'
 
 import Card from './shared/Card'
 import Button from './shared/Button'

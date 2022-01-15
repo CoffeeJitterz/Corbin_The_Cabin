@@ -1,4 +1,4 @@
-import Proptypes from 'prop-types'
+// import Proptypes from 'prop-types'
 
 function Card({children, title, color, text, size, fontColor}) {
 
@@ -29,10 +29,10 @@ function Card({children, title, color, text, size, fontColor}) {
   }
 }
 
-Card.propTypes = {
-  title: false,
-  color: 'none',
-  text: null,
-}
+// Card.PropTypes = {
+//   title: false,
+//   color: 'none',
+//   text: null,
+// }
 
 export default Card
