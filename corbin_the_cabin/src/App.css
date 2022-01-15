@@ -26,17 +26,17 @@ background-color: rgb(116, 116, 116);
 display: flex;
 flex-direction: column;
 align-items: center;
+padding-left: 0px;
 border: 10px outset;
 border-top-color:rgb(255, 255, 255);
 border-left-color: rgb(255, 255, 255);
-outline: 2px solid black;
+outline: 1px solid black;
 text-shadow: 3px 3px salmon;
 
 }
 .card{
   border: 7px ridge;
-  outline: 2px solid black;
-  margin: 1em;
+  outline: 1px solid black; 
   border-top-color:rgb(255, 255, 255);
   border-left-color: rgb(255, 255, 255);
   border-right-color: rgb(71, 71, 71);
@@ -44,16 +44,15 @@ text-shadow: 3px 3px salmon;
   background-color: rgb(116, 116, 116);
 
 }
-.card_title {
-  border: 7px ridge;
+.title_card {
+  border: 5px ridge;
   border-top: none;
+  outline: 1px solid black; 
+  border-top-color:rgb(255, 255, 255);
   border-left-color: rgb(255, 255, 255);
   border-right-color: rgb(71, 71, 71);
   border-bottom-color: rgb(71, 71, 71);
-  outline: 2px solid black;
-  margin: 1em;
   background-color: rgb(116, 116, 116);
-
 }
 
 img {

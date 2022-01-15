@@ -10,20 +10,24 @@ function Card({children, title, color, text, size, fontColor}) {
     )
   } else if (title) {
     return (
-      <div className="card_title">
-        <div className="title" 
-              style={{
-                backgroundColor: color,
-                borderColor: color,
-                borderTopColor:'rgb(255, 255, 255)',
-                borderLeftColor: 'rgb(255, 255, 255)',
-                color: fontColor,
+    <div>
+    <div className="title" 
+         style={{
+         backgroundColor: color,
+         borderColor: color,
+         borderTopColor:'rgb(255, 255, 255)',
+         borderLeftColor: 'rgb(255, 255, 255)',
+         color: fontColor,
                      }}>
          <h1 style={{
           fontSize: size,
          }}> {text} </h1>
         </div>
+      <div className="title_card">
+        <div>
         {children}
+       </div>
+      </div>      
       </div>
     )
   }
