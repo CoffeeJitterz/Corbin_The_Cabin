@@ -10,6 +10,8 @@ function App() {
     <Router>
     <div className='app'>
       <Header />
+      <div className='gap'>
+      </div>
       <Routes>
         <Route path='/' element={        
           <Player />                              
