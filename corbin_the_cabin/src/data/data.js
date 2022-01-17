@@ -13,47 +13,47 @@ const data = [
   {
     frame: 1,
     image: frame1,
-    date: '4:00:01 Am, Friday April 13th, 1990 A.D.',
+    date: '4:00:00 Am, Thursday Aril 12th, 1990 A.D.',
   },
   {
     frame: 2,
     image: frame2,
-    date: '4:00:02 Am, Friday April 13th, 1990 A.D.',
+    date: '4:00:01 Am, Thursday Aril 12th, 1990 A.D.',
   },
   {
     frame: 3,
     image: frame3, 
-    date: '4:00:03 Am, Friday April 13th, 1990 A.D.',
+    date: '4:00:02 Am, Thursday Aril 12th, 1990 A.D.',
   },
   {
     frame: 4,
     image: frame4,
-    date: '4:00:04 Am, Friday April 13th, 1990 A.D.',
+    date: '4:00:03 Am, Thursday Aril 12th, 1990 A.D.',
   },
   {
     frame: 5,
     image: frame5,
-    date: '4:00:04 Am, Friday April 13th, 1990 A.D.',
+    date: '4:00:04 Am, Thursday Aril 12th, 1990 A.D.',
   },
   {
     frame: 6,
     image: frame6,
-    date: '4:00:01 Am, Friday April 13th, 1990 A.D.',
+    date: '4:00:00 Am, Friday April 13th, 1990 A.D.',
   },
   {
     frame: 7,
     image: frame7,
-    date: '4:00:02 Am, Friday April 13th, 1990 A.D.',
+    date: '4:00:01 Am, Friday April 13th, 1990 A.D.',
   },
   {
     frame: 8,
     image: frame8, 
-    date: '4:00:03 Am, Friday April 13th, 1990 A.D.',
+    date: '4:00:02 Am, Friday April 13th, 1990 A.D.',
   },
   {
     frame: 9,
     image: frame9,
-    date: '4:00:04 Am, Friday April 13th, 1990 A.D.',
+    date: '4:00:03 Am, Friday April 13th, 1990 A.D.',
   },
   {
     frame: 10,
