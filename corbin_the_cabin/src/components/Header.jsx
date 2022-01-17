@@ -13,8 +13,8 @@ function Header() {
           >
       <div className='header_container'>
         <Card>
-        <NavLink to='/'  exact activeClassName="current" style={{textDecoration: 'none', color: 'black'}}><Button>Home</Button></NavLink>
-        <NavLink to='/about' exact activeClassName="current" style={{textDecoration: 'none', color: 'black'}}><Button>About</Button></NavLink>
+        <NavLink to='/'  exact activeclassname="current" style={{textDecoration: 'none', color: 'black'}}><Button>Home</Button></NavLink>
+        <NavLink to='/about' exact activeclassname="current" style={{textDecoration: 'none', color: 'black'}}><Button>About</Button></NavLink>
         </Card>
       </div>
     </Card>

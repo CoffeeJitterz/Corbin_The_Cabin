@@ -6,13 +6,13 @@ import Button from './shared/Button'
 
 function Player() {
 
-const [frame, setFrame] = useState(data[data.length - 1].frame)
+const [frame, setFrame] = useState(data[data.length - 1].frame -1)
 
 const backwards = () => {
   if(frame > 0) {
     setFrame(frame - 1)
   } else {
-    setFrame(data[data.length - 1].frame)
+    setFrame(data[data.length - 1].frame - 1)
   }
 }
 const forwards = () => {
@@ -23,7 +23,7 @@ const forwards = () => {
   }
 }
 const current = () => {
-  setFrame(data[data.length - 1].frame)
+  setFrame(data[data.length - 1].frame -1)
 }
 
 const beginning = () => {
