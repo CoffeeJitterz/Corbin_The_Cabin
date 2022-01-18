@@ -1,5 +1,4 @@
 import Card from "../shared/Card"
-import Button from "../shared/Button"
 
 function AboutPage() {
   return (
