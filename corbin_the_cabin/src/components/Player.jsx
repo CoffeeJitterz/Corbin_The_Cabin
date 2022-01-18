@@ -6,29 +6,35 @@ import Button from './shared/Button'
 
 function Player() {
 
-const [frame, setFrame] = useState(data[data.length - 1].frame -1)
+const lastFrame = data.length - 1
+const [frame, setFrame] = useState(lastFrame)
 
 const backwards = () => {
   if(frame > 0) {
     setFrame(frame - 1)
   } else {
-    setFrame(data[data.length - 1].frame - 1)
+    setFrame(lastFrame)
   }
 }
 const forwards = () => {
-  if(frame < data.length - 1) {
+  if(frame < lastFrame) {
     setFrame(frame + 1)
   } else {
     setFrame(0)
   }
 }
 const current = () => {
-  setFrame(data[data.length - 1].frame -1)
+  setFrame(lastFrame)
 }
 
 const beginning = () => {
   setFrame(0)
 }
+// const scrollWheel = e => {
+//   console.log(frame)
+//     (e.nativeEvent.wheelDelta > 0) ? setFrame(frame + 1) : setFrame(frame - 1)
+//     if (e.nativeEvent.wheelDelta < 0){setFrame(0)}
+//   }
 
 const screen = <img src={data[frame].image} alt='Corbin'/> 
 
